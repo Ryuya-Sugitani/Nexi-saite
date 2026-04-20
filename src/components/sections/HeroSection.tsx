@@ -37,10 +37,7 @@ export function HeroSection() {
           </Link>
           <Link
             href={CTA_ITEMS.download.href}
-            className={cn(
-              buttonVariants({ size: "lg", variant: "outline" }),
-              "w-full border-white/30 text-white hover:bg-white/10 sm:w-auto"
-            )}
+            className="inline-flex h-11 w-full items-center justify-center rounded-md border border-white/30 px-8 text-sm font-medium text-white transition-colors hover:bg-white/10 sm:w-auto"
           >
             サービス資料をダウンロード
           </Link>

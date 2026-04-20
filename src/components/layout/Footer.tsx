@@ -10,10 +10,10 @@ export function Footer() {
           <div>
             <Link href="/" className="inline-block">
               <Image
-                src="/logo-a.png"
+                src="/logo-a-cropped.png"
                 alt="Nexi"
                 width={140}
-                height={56}
+                height={60}
                 className="h-12 w-auto object-contain brightness-0 invert"
               />
             </Link>

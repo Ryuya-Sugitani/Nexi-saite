@@ -17,11 +17,11 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 lg:px-6">
         <Link href="/" className="flex items-center">
           <Image
-            src="/logo-b.png"
+            src="/logo-b-cropped.png"
             alt="Nexi"
             width={120}
-            height={40}
-            className="h-9 w-auto object-contain"
+            height={50}
+            className="h-10 w-auto object-contain"
             priority
           />
         </Link>
@@ -66,11 +66,11 @@ export function Header() {
           <SheetContent side="right" className="w-72">
             <div className="mb-6 mt-2">
               <Image
-                src="/logo-b.png"
+                src="/logo-b-cropped.png"
                 alt="Nexi"
                 width={100}
-                height={34}
-                className="h-8 w-auto object-contain"
+                height={42}
+                className="h-9 w-auto object-contain"
               />
             </div>
             <nav className="flex flex-col gap-4">
